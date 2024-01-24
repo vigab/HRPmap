@@ -19,104 +19,122 @@ body {
     font-display: center;
     text-align: center;
     text-transform: capitalize;
+    background: url(../images/parter.png);
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position-x: center;
 }
+
 
 .flex {
     display: flex;
 }
 
+.site-down {
+    margin-bottom: 600px;
+}
+
+.mac {
+    padding-left:1100px;
+    width: 300px;
+}
 
 /* Rooms */
 
 
 .room1 {
-    background-color: #26c138;
+    background-color: #26c13849;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 120px;
-    height: 120px;
+    width: 119px;
+    height: 130px;
     border: 1px solid black;
     position: absolute;
     padding-top: 50px;
+    margin-top: 94px;
+    margin-left: 16px;
 }
 
 .room1:hover,
 .room1:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .room2 {
-    background-color: #26c138;
+    background-color: #26c13849;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 120px;
-    height: 120px;
+    width: 119px;
+    height: 122px;
     border: 1px solid black;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 226px;
     padding-top: 50px;
+    margin-left: 16px;
 }
 
 .room2:hover,
 .room2:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .room3 {
-    background-color: #26c138;
+    background-color: #26c13849;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 120px;
-    height: 80px;
+    width: 119px;
+    height: 58px;
     border: 1px solid black;
     position: absolute;
-    margin-top: 160px;
-    padding-top: 30px;
+    margin-top: 350px;
+    padding-top: 24px;
+    margin-left: 16px;
 }
 
 .room3:hover,
 .room3:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .room4 {
-    background-color: #26c138;
+    background-color: #26c13849;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 100px;
-    height: 80px;
+    width: 104px;
+    height: 64px;
     border: 1px solid black;
     position: absolute;
-    margin-top: 240px;
-    padding-top: 30px;
+    margin-top: 411px;
+    padding-top: 23px;
+    margin-left: 16px;
 
 }
 
 .room4:hover,
 .room4:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .room5 {
-    background-color: #26c138;
+    background-color: #26c13849;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 55px;
+    width: 48px;
     height: 70px;
     border: 1px solid black;
     position: absolute;
     padding-top: 20px;
-    margin-left: 160px;
-    margin-top: 250px;
+    margin-left: 197px;
+    margin-top: 405px;
 }
 
 .room5:hover,
 .room5:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -125,60 +143,63 @@ body {
 
 
 .hall1 {
-    background-color: #c617b1;
+    background-color: #c617b155;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 280px;
-    height: 80px;
+    width: 224px;
+    height: 67px;
     border: 1px solid black;
-    margin-left: 120px;
-    padding-top: 25px;
+    margin-left: 137px;
+    padding-top: 24px;
+    margin-top: 94px;
+    position: absolute;
 
 }
 
 .hall1:hover,
 .hall1:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hall2 {
-    background-color: #c617b1;
+    background-color: #c617b155;
     cursor: pointer;
     border: 213px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 40px;
-    height: 120px;
+    width: 38px;
     border: 1px solid black;
     position: absolute;
-    margin-left: 120px;
-    height: 320px;
+    margin-left: 137px;
+    height: 250px;
     padding-top: 50px;
+    margin-top: 162px;
 
 }
 
 .hall2:hover,
 .hall2:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hall3 {
-    background-color: #c617b1;
+    background-color: #c617b155;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 40px;
-    margin-left: 360px;
+    width: 41px;
+    margin-left: 320px;
     border: 1px solid black;
-    height: 320px;
+    height: 313px;
     position: absolute;
     padding-top: 50px;
+    margin-top: 161px;
 
 }
 
 .hall3:hover,
 .hall3:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -186,84 +207,103 @@ body {
 /* Conference Hall */
 
 
-.conference-middle {
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 250px solid #2648f3
-}
-
-.conference-middle:hover,
-.conference-middle:focus {
-    width: 0;
-    height: 0;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 250px solid #d81e1e;
+.conference-left-up {
+    background-color: #3b26c149;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 172px;
+    height: 92px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 96px;
+    margin-left: 16px;
+    padding-top: 46px;
 }
 
-.conference-left {
-    width: 0;
-    height: 0;
-    border-top: 250px solid #2648f3;
-    border-right: 200px solid transparent;
+.conference-left-up:hover,
+.conference-left-up:focus {
+    background-color: #d81e1e8b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conference-left-down {
+    background-color: #3b26c149;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 172px;
+    height: 92px;
     position: absolute;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 188px;
+    margin-left: 16px;
+    padding-top: 46px;
   }
 
-.conference-left:hover,
-.conference-left:focus {
-    width: 0;
-    height: 0;
-    border-top: 250px solid #d81e1e;
-    border-right: 200px solid transparent;
-    position: absolute;
-    cursor: pointer;
+.conference-left-down:hover,
+.conference-left-down:focus {
+    background-color: #d81e1e8b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.conference-right {
-    width: 0;
-    height: 0;
-    border-top: 250px solid #2648f3;
-    border-left: 200px solid transparent;
-    position: absolute;
-    margin-left: 200px;
+.conference-right-up {
+    background-color: #3b26c149;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 173px;
+    height: 92px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: 96px;
+    padding-top: 46px;
   }
 
-.conference-right:hover,
-.conference-right:focus {
-    width: 0;
-    height: 0;
-    border-top: 250px solid #d81e1e;
-    border-left: 200px solid transparent;
-    cursor: pointer;
+.conference-right-up:hover,
+.conference-right-up:focus {
+    background-color: #d81e1e8b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
   
-.conference-text {
-    padding-top: 130px;
-    margin-left: -50px;
+.conference-right-down {
+    background-color: #3b26c149;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 173px;
+    height: 92px;
     position: absolute;
+    margin-top: 188px;
+    margin-left: 188px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 46px;
+  }
+
+.conference-right-down:hover,
+.conference-right-down:focus {
+    background-color: #d81e1e8b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 
 
 /* Kitchen */
 
 
 .kitchen {
-    background-color: #41e0f6;
+    background-color: #41e1f65d;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 55px;
-    height: 40px;
+    width: 58px;
+    height: 38px;
     border: 1px solid black;
     position: absolute;
     padding-top: 10px;
-    margin-left: 160px;
+    margin-left: 178px;
+    margin-top: 163px;
 }
 
 .kitchen:hover,
 .kitchen:focus {
-    background-color: #d81e1e;
+    background-color: #d81e1e8b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
